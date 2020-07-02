@@ -1,0 +1,36 @@
+.header {
+    background-color: #20232a;
+    color: white;
+    display: grid;
+    grid-template-columns: 35% auto;
+    grid-template-rows: 100;
+}
+
+.title {
+    padding-left: 15px;
+}
+
+.nav-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-i {
+    display: flex;
+    padding: 0px 10px 0px 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+
+.clima {
+    background-color: rgb(34, 137, 255);
+}
+.clima-item {
+    align-self: center;
+    padding: 0 10px 0 10px;
+}
